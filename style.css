@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Shantell+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
+ :root {
+    --background-color: #e4fdff;
+    --main-color: #394b3d;
+    --title-color: #c9d6e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #ffff;
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: block;
+}
+
+header {
+    background: url("images/20181015_121430.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding: 20px;
+    /* position: absolute; */
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 20px;
+    min-width: 1200px;
+    max-height: 200px;
+}
+
+
+/* .logo {
+        display: block;
+        padding: 20px;
+        position: absolute;
+        top: 11%;
+        left: 6%;
+        /* z-index: 1; */
+
+main {
+    background-color: var(--main-color);
+}
+
+.main-links {
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px 0;
+    background-color: var(--main-color);
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    font-size: 24px;
+}
+
+.main-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.main-title {
+    /* display: block; */
+    margin-top: 0;
+    padding-top: 30px;
+    font-size: 55px;
+    text-align: center;
+}
+
+.grid-item {
+    border: 1px solid rgb(17, 138, 67);
+}
+
+.grid-container {
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 200px 300px;
+    /* grid-auto-rows: minmax(150px, auto); */
+    grid-gap: 20px;
+    grid-template-areas: 'm m' 'a b' 'a b' 'n n' 'penktas sestas' 'o o' 'r k';
+    /* grid-template-columns: repeat(4, 100px); */
+    /* grid-auto-rows: 150px; */
+    /* grid-template-rows: 200px 300px; */
+    /* align-items: center;
+    justify-content: center; */
+    /* grid-template-columns: minmax(150px, 250px); */
+    /* grid-gap: 30px;
+    grid-template-areas: 'header header header' 'sidebar content'; */
+}
+
+.grid-item-1 {
+    grid-area: m;
+}
+
+.grid-item-2 {
+    /* background-color: red; */
+    background-image: url('images/lowelake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: a;
+    /* height: 200px; */
+    /* color: var(--title-color) */
+    color: #5c83ad;
+}
+
+.grid-item-3 {
+    grid-area: b;
+}
+
+.grid-item-4 {
+    grid-area: n;
+}
+
+.grid-item-6 {
+    grid-area: sestas;
+    background-image: url('images/20181015_121430.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 200px; */
+    /* grid-column:  1/ 3; */
+}
+
+.grid-item-7 {
+    grid-area: o;
+}
+
+.grid-item-8 {
+    background-image: url('/images/upperlake.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-area: r;
+    /* height: 200px; */
+}
+
+.item-1:hover {
+    background-color: #5c83ad;
+    transition: 1s;
+}
+
+.item-2:hover {
+    background-color: #5c83ad;
+    transition: 1s;
+}
+
+.item-3:hover {
+    background-color: #5c83ad;
+    transition: 1s;
+}
+
+.nav-links {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    height: 300px;
+    position: relative;
+}
+
+
+/* Drop menu */
+
+footer {
+    /* background-image: url('images/middle lake.jpg'); */
+    background-color: #79b1e7;
+    margin: 0;
+}
+
+.footer-text {
+    /* padding: 20px; */
+    margin: 0;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--main-color)
+}
+
+.address a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    /* margin-bottom: 30px; */
+}
+
+.footer-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer-nav ul li {
+    padding: 6px;
+}
+
+.footer-nav a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+
+/*  Title */
+
+.drop-down__menu {
+    display: flex;
+    background-color: #394b3d;
+    align-items: center;
+}
+
+.drop-down__menu a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.drop-down__menu li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.drop-down__title h1 {
+    /* max-height: 40px; */
+    background-color: #394b3d;
+    padding: 15px 18px;
+    font-size: 30px;
+    /* border-radius: 5px; */
+    text-align: center;
+    border-right: 1px solid #ffff;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.block-5 .drop-down__title h1 {
+    border-right: none;
+}
+
+.drop-down__title h1:hover {
+    background-color: #587e61;
+}
+
+.show {
+    display: block;
+}
+
+.drop-down-submenu li {
+    background-color: #5c83ad;
+    border-bottom: 1px solid #ffff;
+    padding: 10px 15px;
+    transition: all 1s;
+}
+
+.drop-down-submenu li:hover {
+    background-color: #9cb1b3;
+}
+
+.drop-down-submenu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.drop-down-submenu li {
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    /* border-right: 1px solid #ffff; */
+}
+
+.block {
+    position: relative;
+}
+
+.drop-down-submenu {
+    display: none;
+    position: absolute;
+    top: 71px;
+    left: 0;
+}
+
+.drop-down-submenu {
+    color: #ffff;
+    width: 100%;
+}
+
+.drop-down-submenu a {
+    font-size: 22px;
+    color: #ffff;
+}
+
+
+/* Drop menuy */
