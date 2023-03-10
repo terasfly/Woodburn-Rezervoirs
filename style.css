@@ -359,6 +359,11 @@ footer {
         font-size: 8px;
     }
 }
+@media (max-width: 390px) {
+    .drop-down__title h1 {
+        font-size: 8px;
+    }
+}
 
 @media (max-width: 580px) {
     /* burger */
