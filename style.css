@@ -108,7 +108,7 @@ main {
 }
 
 .grid__item-2 {
-    background-image: url(images/lower\ lake.jpg);
+    background-image: url(images/lower\lake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -119,7 +119,7 @@ main {
 }
 
 .grid__item-3 {
-    background-image: url(images/middle\ lake.jpg);
+    background-image: url(images/middlelake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ main {
 }
 
 .grid__item-6 {
-    background-image: url(images/upper\ lake.jpg);
+    background-image: url(images/upperlake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,7 +210,7 @@ main {
 /* Drop menu */
 
 footer {
-    /* background-image: url('images/middle lake.jpg'); */
+    /* background-image: url('images/middlelake.jpg'); */
     background-color: #79b1e7;
     margin: 0;
 }
