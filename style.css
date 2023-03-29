@@ -124,7 +124,7 @@ h2 {
 }
 
 .grid__item-2 {
-    background-image: url(/images/lower\ lake.jpg);
+    background-image: url(/images/lowelake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ h2 {
 }
 
 .grid__item-3 {
-    background-image: url(/images/middle\ lake.jpg);
+    background-image: url(/images/middlelake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@ h2 {
 }
 
 .grid__item-6 {
-    background-image: url(/images/upper\ lake.jpg);
+    background-image: url(/images/upperlake.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
